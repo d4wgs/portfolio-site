@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sujay Kethineni — Portfolio</title>
+<meta name="description" content="Portfolio of Sujay Kethineni — finance, reinsurance, investments, and equity research." />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='black' width='100' height='100'/><text x='50' y='62' font-size='60' text-anchor='middle' fill='%23e11d48'>SK</text></svg>">
+<script defer src="script.js"></script>
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<div class="scanlines" aria-hidden="true"></div>
+
+
+<header class="container">
+<nav class="nav">
+<a class="brand" href="#top" aria-label="Home">SK</a>
+<button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+<ul class="nav-items">
+<li><a href="#about">About</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#education">Education & Skills</a></li>
+<li><a href="#interests">Interests</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+
+<main id="top" class="container">
+<section id="hero" class="hero reveal">
+<div class="hero-text">
+<h1><span class="accent">Sujay</span> Kethineni</h1>
+<p class="tag">Equity Research · Investment Management · Finance Enthusiast</p>
+</div>
+<div class="ticker" aria-label="Market-style ticker">
+<div class="ticker-track" id="tickerTrack"></div>
+</div>
+</section>
+
+<section id="about" class="card reveal">
+<h2>About</h2>
+<div class="section-body">
+<ul class="quickfacts">
+<li>• B.S. Finance @ Rutgers (GPA 3.7/4.0)</li>
+<li>• Graduation Expected May 2027</li>
+<li>• CFA Level 1 Registered for November 2025</li>
+</ul>
+<ul class="about-list">
+<li><strong>• Clubs:</strong> Raider's Student Managed Fund, Little Investment Bankers of Rutgers (LIBOR), Rutgers Corporate Finance Society</li>
+<li><strong>• Relevant Courses:</strong> Corporate Finance, Financial Management, Operations Management, Financial Accounting</li>
+</ul>
+</div>
+</section>
+
+<section id="experience" class="reveal">
+<h2>Experience</h2>
+
+
+<div class="section-body">
+<div class="timeline">
+  
+<div class="timeline-item">
+<div class="timeline-header">
+<h3>Multinational Operations Intern</h3>
+<span class="company">Starr Insurance</span>
+<span class="period">Jun. 2025 - Aug. 2025</span>
+</div>
+<ul class="timeline-content">
+<li>Created reports for senior underwriters using Excel and internal systems to track risk metrics</li>
+<li>Collaborated with Multinational Program Managers to improve data workflow and organization</li>
+<li>Used Excel VBA to allocate over $7M to valid reinsurers from central collect in Bermuda</li>
+<li>Entered payment slip data to reallocate over $100M in unidentified premium in Q2</li>
+<li>Internship extended 8 weeks → 11 weeks to complete project that alters underwriting workflow</li>
+</ul>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-header">
+<h3>Tax & Investment Intern</h3>
+<span class="company">Private Investment Sub-Fund</span>
+<span class="period">Mar. 2025 - Present</span>
+</div>
+<ul class="timeline-content">
+<li>Allocated capital for a $50K sub-fund, contributing to a whopping YTD portfolio growth of 17.2%</li>
+<li>Built stock pitches, DCF/Comps models, and conducted equity research across multiple sectors</li>
+<li>Implemented IRS-compliant tax strategies, generating $40K+ in realized savings for the fiscal year</li>
+<li>Tracked macrotrends like Fed policy and market cycles to guide strategic positioning of holdings</li>
+</ul>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-header">
+<h3>Multinational Operations Intern</h3>
+<span class="company">Starr Insurance</span>
+<span class="period">Jun. 2024 - Aug. 2024</span>
+</div>
+<ul class="timeline-content">
+<li>Performed 30+ QA checks verifying data accuracy, ensuring reliable information for management</li>
+<li>Constructed a key containing 20+ bulletins for 263 countries for program coordinators to reference</li>
+<li>Led a team of 5 interns in building our capstone project and presenting to senior management</li>
+<li>Created 15+ client accounts using Salesforce and SPARC, demonstrating skill in client management</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+</section>
+
+<section id="education" class="reveal">
+<h2>Education & Skills</h2>
+<div class="section-body">
+<div class="edu-section">
+<h3>Education</h3>
+<div class="edu-item">
+<h4>Bachelor of Science in Finance</h4>
+<p class="school">Rutgers Business School</p>
+<ul class="edu-details">
+<li>GPA: 3.7/4.0</li>
+<li>Expected Graduation: May 2027</li>
+<li>Relevant Coursework: Corporate Finance, Financial Management, Operations Management, Financial Accounting</li>
+</ul>
+</div>
+</div>
+
+<div class="cert-section">
+<h3>Certifications</h3>
+<ul class="cert-list">
+<li>Bloomberg Market Concepts (BMC)</li>
+<li>Bloomberg Finance Fundamentals (BFF)</li>
+<li>Registered for CFA Level 1 in November 2025</li>
+<li>Excel for Investment Professionals - LinkedIn</li>
+<li>Master Microsoft Excel - LinkedIn</li>
+</ul>
+</div>
+
+<div class="skills-section">
+<h3>Technical Skills</h3>
+<div class="skills-grid">
+<div class="skill-category">
+<h4>Financial Modeling/Taxation</h4>
+<ul>
+<li>Discounted Cash Flow Modeling</li>
+<li>Comparable Comps & Trading Multiples</li>
+<li>Financial Statement Analysis</li>
+<li>LLC & Individual Taxation</li>
+</ul>
+</div>
+<div class="skill-category">
+<h4>Financial Tools</h4>
+<ul>
+<li>Bloomberg Terminal</li>
+<li>Seeking Alpha</li>
+<li>Excel - VBA, Macros, and Pivot Tables</li>
+</ul>
+</div>
+<div class="skill-category">
+<h4>Programming</h4>
+<ul>
+<li>Intermediate Proficiency in HTML, CSS and Javascript</li>
+<li>Introductory Proficiency in SQL & Python</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="interests" class="reveal">
+<h2>Interests</h2>
+<div class="section-body">
+<ul class="interests-list">
+<li>• House, EDM, Indie, and Classic Rock/Metal Music</li>
+<li>• Strategy Games (Valorant, The Settlers of Catan, CSGO, and Civ 5)</li>
+<li>• Fishkeeping (Saltwater & Freshwater)</li>
+<li>• Colognes</li>
+<li>• Bodybuilding, Hiking, Rugby</li>
+<li>• Gardening</li>
+</ul>
+</div>
+</section>
+
+<section id="contact" class="reveal">
+<h2>Contact</h2>
+<div class="section-body">
+<div class="contact-grid">
+
+<div class="contact-item">
+<span class="contact-icon">📧</span>
+<a href="mailto:sk2737@rutgers.edu">sk2737@rutgers.edu</a>
+</div>
+
+<div class="contact-item">
+<span class="contact-icon">📱</span>
+<a href="tel:+17329568916">(732) 956-8916</a>
+</div>
+
+<div class="contact-item">
+<span class="contact-icon"></span>
+<a href="https://www.linkedin.com/in/sujaykethineni" target="_blank" rel="noopener">LinkedIn</a>
+</div>
+
+</div>
+
+</section>
+</main>
+
+<footer class="container">
+<p>&copy; <span id="year"></span> Sujay Kethineni. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
